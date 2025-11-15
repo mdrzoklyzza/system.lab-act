@@ -1,0 +1,24 @@
+<!-- Modal -->
+    <div id="blogModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeModalBtn">&times;</span>
+            <h2>Add Information</h2>
+            <form class="blog-form" method="post" action="#" enctype="multipart/form-data">
+                <label>PRODUCT NAME</label>
+                <input type="text" name="product_name" required><br><br> 
+
+                <label>DETAILS</label>
+                <input type="text" name="details" required><br><br>
+
+                <label>SELLER INFORMATION</label>
+                <input type="text" name="seller_info" required><br><br>
+
+                <input type="file" name="file">
+
+                <div class="form-buttons">
+                    <button type="button" class="cancel-btn" id="cancelModalBtn">Cancel</button>
+                    <button type="submit" class="done-btn">Done</button>
+                </div>
+            </form>
+        </div>
+    </div>
